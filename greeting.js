@@ -19,7 +19,10 @@ function saveName(name) {
 }
 
 function handleSubmit(event) {
+  event.preventDefault();
   saveName(nameInput.value);
+  loadName();
+  removenameInput();
 }
 
 function init() {
