@@ -64,9 +64,19 @@ ul {
   padding: 0;
 }
 
+@keyframes loadBtn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 button {
   background-color: #1fe0;
   border: none;
+  animation: loadBtn 2s linear;
 }
 
 button:hover {
