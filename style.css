@@ -15,6 +15,14 @@ body {
   height: 97vh;
 }
 
+.js-weather {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 .clock {
   font-size: 100px;
   margin-bottom: 12px;
